@@ -1,0 +1,35 @@
+{smcl}
+{* 22may2015}{...}
+{hline}
+help for {hi:calibrate} {right:manual:  {hi:[R] none}}
+{right:dialog:  {hi: none}    }
+{hline}
+
+{title:Syntax}
+
+{p 8 17 2}{cmd:calibrate} outc predict{p_end}
+
+{title:Description}
+
+{p 4 4 2}{cmd:calibrate} is developed for asssessing the performance of prediction models for predicting events or classifying characteristics. The outcome variable (outc) is binary (0, 1) and the prediction variable (predict) continuous from 0 to 1. The outcome includes an estimate of the area under the curve with a 95% confidence interval, the p-value of the Hosmer-Lemeshow test, the mean absolute error, table of the observed and expected number of events for each of the 10 prediction decentiles, and a calibration plot. 
+{p_end}
+
+{title:Literature}
+
+{p 4 4 2}Steyerberg EW, Vickers AJ, Cook NR et al. Assessing the performance of prediction models: a framework for some traditional and novel measures. {it:Epidemiology} 2010;21:128-138.
+{p_end}
+
+{title:Example}
+
+{p 4 4 2}{cmd:calibrate} var1 var2 {p_end}
+
+{title:Author}
+
+{p 4 4 2}
+Jonas Ranstam PhD {break}
+Mdas AB Rotfruktsgatan 12B, Ystad, Sweden, {break}
+http://www.ranstam.se, jonas.ranstam@gmail.com{p_end}
+
+
+
+
